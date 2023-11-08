@@ -1,6 +1,6 @@
 ---
 name: cAdvisor
-version: v0.1.0
+version: v0.1.1
 slug: cadvisor
 description: A container metrics exporter for Prometheus
 url: https://github.com/christian-vdz/hassio-cadvisor-addon
