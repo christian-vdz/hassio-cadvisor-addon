@@ -11,7 +11,7 @@ COPY --from=cadvisor /usr/bin/cadvisor /usr/bin/cadvisor
 # Setup base
 RUN \
     apk add --no-cache \
-        ipmitool=1.8.18-r0 \
+        ipmitool=1.8.19-r1 \
         libpfm=4.11.0-r0 \
         libipmctl=02.00.00.3723-r0 \
         lm_sensors=3.6.0-r0
