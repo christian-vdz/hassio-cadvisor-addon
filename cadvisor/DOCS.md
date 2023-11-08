@@ -1,27 +1,34 @@
 # Home Assistant Community Add-on: cAdvisor
 
-[![GitHub Release][releases-shield]][releases]
+cAdvisor (Container Advisor) provides container users an understanding of the resource usage and performance characteristics of their running containers. It is a running daemon that collects, aggregates, processes, and exports information about running containers. Specifically, for each container it keeps resource isolation parameters, historical resource usage, histograms of complete historical resource usage and network statistics. This data is exported by container and machine-wide.
 
-cAdvisor add-on for Home-Assistant
+cAdvisor has native support for Docker containers and should support just about any other container type out of the box. We strive for support across the board so feel free to open an issue if that is not the case. cAdvisor's container abstraction is based on lmctfy's so containers are inherently nested hierarchically.
 
-## About
+## Installation
 
-This is an example add-on for Home Assistant. When started, it displays a
-random quote every 5 seconds.
+The installation of this add-on is pretty straightforward and not different in
+comparison to installing any other Home Assistant add-on.
 
-It shows off several features and structures like:
+1. Search for the "cAdvisor" add-on in the Supervisor add-on store and
+   install it.
+2. Start the "cAdvisor" add-on.
+3. Click the "OPEN WEB UI" button to open cAdvisor.
 
-- Full blown GitHub repository.
-- General Dockerfile structure and setup.
-- The use of the `config.yaml` and `build.yaml` files.
-- General structure on how to use S6 overlay with services.
-- Basic usage of Bashio.
-- Continuous integration and deployment using GitHub Actions.
-- Deployment to the GitHub Container registry.
-- Small use of the Bash function library in our base images.
-- The use of Docker label schema.
+## Configuration
 
-[:books: Read the full add-on documentation][docs]
+## Changelog & Releases
+
+This repository keeps a change log using [GitHub's releases][releases]
+functionality. The format of the log is based on
+[Keep a Changelog][keepchangelog].
+
+Releases are based on [Semantic Versioning][semver], and use the format
+of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
+based on the following:
+
+- `MAJOR`: Incompatible or major changes.
+- `MINOR`: Backwards-compatible new features and enhancements.
+- `PATCH`: Backwards-compatible bugfixes and package updates.
 
 ## Support
 
@@ -38,16 +45,6 @@ You have several options to get them answered:
 
 You could also [open an issue here][issue] GitHub.
 
-## Contributing
-
-This is an active open-source project. We are always open to people who want to
-use the code or contribute to it.
-
-We have set up a separate document containing our
-[contribution guidelines](.github/CONTRIBUTING.md).
-
-Thank you for being involved! :heart_eyes:
-
 ## Authors & contributors
 
 The original setup of this repository is by [Franck Nijhof][frenck].
@@ -59,7 +56,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2017-2023 Christian VDZ
+Copyright (c) 2019-2020 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -78,6 +75,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-[releases-shield]: https://img.shields.io/badge/version-0.0.1-orange.svg
-[releases]: https://github.com/christian-vdz/hassio-cadvisor-addon/releases

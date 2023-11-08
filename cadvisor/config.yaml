@@ -1,0 +1,16 @@
+---
+name: cAdvisor
+version: v0.47.2
+slug: cadvisor
+description: A container metrics exporter for Prometheus
+url: https://github.com/christian-vdz/hassio-cadvisor-addon
+webui: http://[HOST]:[PORT:8080]
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armv7
+ports:
+  8080/tcp: 8080
+ports_description:
+  8080/tcp: Web interface
