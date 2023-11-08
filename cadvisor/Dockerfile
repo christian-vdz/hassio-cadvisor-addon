@@ -15,7 +15,7 @@ RUN \
         libpfm=4.11.0-r0 \
         libipmctl=02.00.00.3723-r0 \
         lm_sensors=3.6.0-r0 \
-        wget=1.21.1-r1
+        wget=1.21.4-r0
 
 # Copy root filesystem
 COPY rootfs /
