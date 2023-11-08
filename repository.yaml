@@ -1,5 +1,4 @@
 ---
-
 name: "Home Assistant Add-on: cAdvisor"
 url: https://github.com/christian-vdz/hassio-cadvisor-addon
 maintainer: christian-vdz

@@ -15,8 +15,8 @@ comparison to installing any other Home Assistant add-on.
 4. Add this repository: https://github.com/christian-vdz/hassio-cadvisor-addon
 5. Search for the "cAdvisor" add-on in the Supervisor add-on store an
    install it.
-2. Start the "cAdvisor" add-on.
-3. Click the "OPEN WEB UI" button to open cAdvisor.
+6. Start the "cAdvisor" add-on.
+7. Click the "OPEN WEB UI" button to open cAdvisor.
 
 ## Configuration
 
