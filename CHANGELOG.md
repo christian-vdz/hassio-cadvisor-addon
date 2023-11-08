@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1](https://github.com/christian-vdz/hassio-cadvisor-addon/compare/v0.1.0...v0.1.1) (2023-11-08)
+
+
+### Bug Fixes
+
+* **docs:** remane readme.md ([5507b07](https://github.com/christian-vdz/hassio-cadvisor-addon/commit/5507b07c30bb249f7e7fae1f8333068fbaa00dfc))
+* mount docker socket to container ([f1e33d0](https://github.com/christian-vdz/hassio-cadvisor-addon/commit/f1e33d0e2f7a1df35d8899b0d0edd7031fdf1caa))
+
 ## 0.1.0 (2023-11-08)
 
 ### Features
