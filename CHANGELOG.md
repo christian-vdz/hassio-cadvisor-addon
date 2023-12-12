@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/christian-vdz/hassio-cadvisor-addon/compare/v0.1.2...v0.1.3) (2023-11-09)
+
+
+### Bug Fixes
+
+* mount docker socket to container ([7ae4582](https://github.com/christian-vdz/hassio-cadvisor-addon/commit/7ae4582282de1c99466130a1249b119e23fa68d3))
+
 ## [0.1.2](https://github.com/christian-vdz/hassio-cadvisor-addon/compare/v0.1.1...v0.1.2) (2023-11-08)
 
 ### Features
